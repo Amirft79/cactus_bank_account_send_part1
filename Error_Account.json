@@ -1,0 +1,265 @@
+[{
+  "Record_Number": 3,
+  "Account_Number": "5845831157005611",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 1,
+  "Account_Limit": 145500,
+  "Account_Open_Date": "2010-07-11",
+  "Account_Balance": 2450000
+},{
+  "Record_Number": 4,
+  "Account_Number": "5022291099248718",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 1,
+  "Account_Limit": 114500,
+  "Account_Open_Date": "2012-07-11",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 13,
+  "Account_Number": "6219861904300982",
+  "accountType": "Saving",
+  "Account_Customer_id": 6,
+  "Account_Limit": 1250000,
+  "Account_Open_Date": "2021-07-11",
+  "Account_Balance": 2000000
+},{
+  "Record_Number": 14,
+  "Account_Number": "6221008063631412",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 7,
+  "Account_Limit": 2000000,
+  "Account_Open_Date": "2022-07-11",
+  "Account_Balance": 56820000
+},{
+  "Record_Number": 15,
+  "Account_Number": "62210600463631412",
+  "accountType": "Saving",
+  "Account_Customer_id": 8,
+  "Account_Limit": 2050000,
+  "Account_Open_Date": "2001-10-10",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 17,
+  "Account_Number": "6221064063001412",
+  "accountType": "Saving",
+  "Account_Customer_id": 9,
+  "Account_Limit": 2000000,
+  "Account_Open_Date": "2010-03-20",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 30,
+  "Account_Number": "6221064068531412",
+  "accountType": "Saving",
+  "Account_Customer_id": 17,
+  "Account_Limit": 76001000,
+  "Account_Open_Date": "2019-12-24",
+  "Account_Balance": 79001000
+},{
+  "Record_Number": 36,
+  "Account_Number": "6221067864531412",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 22,
+  "Account_Limit": 1452000,
+  "Account_Open_Date": "2003-12-30",
+  "Account_Balance": 66001000
+},{
+  "Record_Number": 38,
+  "Account_Number": "5859831158545611",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 24,
+  "Account_Limit": 11406000,
+  "Account_Open_Date": "2004-11-13",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 39,
+  "Account_Number": "6221064069631462",
+  "accountType": "Saving",
+  "Account_Customer_id": 25,
+  "Account_Limit": 144000,
+  "Account_Open_Date": "2005-10-11",
+  "Account_Balance": 66001000
+},{
+  "Record_Number": 47,
+  "Account_Number": "6221078064731412",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 31,
+  "Account_Limit": 14252000,
+  "Account_Open_Date": "1984-03-07",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 48,
+  "Account_Number": "5859831158595611",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 31,
+  "Account_Limit": 1527000,
+  "Account_Open_Date": "1968-02-08",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 49,
+  "Account_Number": "6221012064731412",
+  "accountType": "Saving",
+  "Account_Customer_id": 32,
+  "Account_Limit": 11266000,
+  "Account_Open_Date": "1978-02-09",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 20,
+  "Account_Number": "50222901099214715",
+  "accountType": "Saving",
+  "Account_Customer_id": 10,
+  "Account_Limit": 60521000,
+  "Account_Open_Date": "2010-01-14",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 23,
+  "Account_Number": "58514531157005611",
+  "accountType": "Saving",
+  "Account_Customer_id": 11,
+  "Account_Limit": 89001000,
+  "Account_Open_Date": "2013-02-17",
+  "Account_Balance": 89001000
+},{
+  "Record_Number": 7,
+  "Account_Number": "6221061211857869",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 3,
+  "Account_Limit": 1440000,
+  "Account_Open_Date": "2015-07-11",
+  "Account_Balance": 114500
+},{
+  "Record_Number": 8,
+  "Account_Number": "6219861907680982",
+  "accountType": "Saving",
+  "Account_Customer_id": 3,
+  "Account_Limit": 10110400,
+  "Account_Open_Date": "2016-07-11",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 12,
+  "Account_Number": "6221064063631415",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 5,
+  "Account_Limit": 56820000,
+  "Account_Open_Date": "2020-07-11",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 16,
+  "Account_Number": "6219861906400982",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 8,
+  "Account_Limit": 1000000,
+  "Account_Open_Date": "2001-02-02",
+  "Account_Balance": 1000000
+},{
+  "Record_Number": 18,
+  "Account_Number": "5022291099214718",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 9,
+  "Account_Limit": 52001000,
+  "Account_Open_Date": "2010-04-20",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 24,
+  "Account_Number": "6219861908500982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 12,
+  "Account_Limit": 78001000,
+  "Account_Open_Date": "2014-02-18",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 25,
+  "Account_Number": "5859831157005611",
+  "accountType": "Saving",
+  "Account_Customer_id": 13,
+  "Account_Limit": 7801000,
+  "Account_Open_Date": "2015-02-19",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 26,
+  "Account_Number": "6221064063631410",
+  "accountType": "Saving",
+  "Account_Customer_id": 14,
+  "Account_Limit": 79001000,
+  "Account_Open_Date": "2016-02-20",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 27,
+  "Account_Number": "5859831100405611",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 15,
+  "Account_Limit": 78001000,
+  "Account_Open_Date": "2016-10-21",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 28,
+  "Account_Number": "6219861914500982",
+  "accountType": "Saving",
+  "Account_Customer_id": 16,
+  "Account_Limit": 79001000,
+  "Account_Open_Date": "2017-11-22",
+  "Account_Balance": 76001000
+},{
+  "Record_Number": 29,
+  "Account_Number": "6221064044531412",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 17,
+  "Account_Limit": 74001000,
+  "Account_Open_Date": "2018-12-23",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 31,
+  "Account_Number": "6219861905222982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 18,
+  "Account_Limit": 72001000,
+  "Account_Open_Date": "2020-12-25",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 32,
+  "Account_Number": "6221464064531412",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 18,
+  "Account_Limit": 66001000,
+  "Account_Open_Date": "2001-07-26",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 33,
+  "Account_Number": "6219861906300982",
+  "accountType": "Saving",
+  "Account_Customer_id": 19,
+  "Account_Limit": 86221000,
+  "Account_Open_Date": "2001-12-27",
+  "Account_Balance": 66001000
+},{
+  "Record_Number": 34,
+  "Account_Number": "6221064994731412",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 20,
+  "Account_Limit": 96551000,
+  "Account_Open_Date": "2001-12-28",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 35,
+  "Account_Number": "6219861907800982",
+  "accountType": "Saving",
+  "Account_Customer_id": 21,
+  "Account_Limit": 18585000,
+  "Account_Open_Date": "2002-12-29",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 37,
+  "Account_Number": "6221064067747412",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 23,
+  "Account_Limit": 1247000,
+  "Account_Open_Date": "2004-12-12",
+  "Account_Balance": 144000
+},{
+  "Record_Number": 40,
+  "Account_Number": "5859848957505611",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 26,
+  "Account_Limit": 1752000,
+  "Account_Open_Date": "2010-09-01",
+  "Account_Balance": 144000
+}]
