@@ -5,12 +5,15 @@ import ir.cactus.model.Customer;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.log4j.Logger;
 
 import java.io.FileReader;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class BankAccountFileReader {
+
+    private static Logger logger=Logger.getLogger(BankAccountFileReader.class);
 
     public BankAccountFileReader(){
 
@@ -29,7 +32,7 @@ public class BankAccountFileReader {
             }
 
      }catch (Exception e){
-         e.printStackTrace();
+         logger.error(e);
      }
 
 
@@ -45,7 +48,7 @@ public class BankAccountFileReader {
                         record.get("Customer_Address"),Integer.parseInt(record.get("Customer_Zip_Code")),record.get("Customer_National_Id"),record.get("Customer_Birth_Date")));
             }
         }catch (Exception e){
-            e.printStackTrace();
+            logger.error(e);
         }
         return customers;
     }

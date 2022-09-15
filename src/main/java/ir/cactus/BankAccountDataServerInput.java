@@ -6,11 +6,14 @@ import ir.cactus.model.Customer;
 import ir.cactus.utils.BankAccountFileReader;
 import ir.cactus.utils.BankDataValidator;
 import ir.cactus.utils.JsonErrorFileMaker;
+import org.apache.log4j.Logger;
 
 import javax.xml.validation.Validator;
 import java.util.*;
 
 public class BankAccountDataServerInput {
+
+    private static Logger logger=Logger.getLogger(BankAccountDataServerInput.class);
 
 
     public static void main(String[] args) {
@@ -29,7 +32,7 @@ public class BankAccountDataServerInput {
             try {
                 Thread.currentThread().sleep(5000);
             }catch (InterruptedException e){
-                e.printStackTrace();
+                logger.error(e);
             }
             System.out.println("validation complete ::::::"+"\n");
             System.out.println(validator.getError_accounts().size());
@@ -41,7 +44,7 @@ public class BankAccountDataServerInput {
             try {
                 Thread.currentThread().sleep(7000);
             }catch (InterruptedException e){
-                e.printStackTrace();
+                logger.error(e);
             }
             System.out.println("sending to database:::::::::::::::::::");
             BankAccountDataBase dataBase=new BankAccountDataBase(validator.getAccounts(), validator.getCustomers());
@@ -62,12 +65,12 @@ public class BankAccountDataServerInput {
             jsonErrorFileMaker.MakeJsonOfAccount();
             try {
                 Thread.currentThread().sleep(2000);
-            }catch (InterruptedException e){e.printStackTrace();}
+            }catch (InterruptedException e){logger.error(e);}
             System.out.println("make account error file");
             jsonErrorFileMaker.MakeAllErrorJsonFile();
             try {
                 Thread.currentThread().sleep(2000);
-            }catch (InterruptedException e){e.printStackTrace();}
+            }catch (InterruptedException e){logger.error(e);}
             System.out.println("genetreated");
 
         }else {

@@ -7,6 +7,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import ir.cactus.model.Account;
 import ir.cactus.model.Customer;
+import org.apache.log4j.Logger;
 
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -17,6 +18,8 @@ import java.util.Date;
 public class JsonErrorFileMaker {
     private ArrayList<Account> accounts;
     private ArrayList<Customer>customers;
+
+    private Logger logger=Logger.getLogger(JsonErrorFileMaker.class);
 
     private ArrayList<JsonFileModel> jsonFileModels;
 
@@ -52,7 +55,7 @@ public class JsonErrorFileMaker {
             }
             writer.write("]");
         }catch (Exception e){
-            e.printStackTrace();
+            logger.error(e);
         }
     }
 
@@ -72,8 +75,7 @@ public class JsonErrorFileMaker {
             }
             writer.write("]");
         }catch (Exception e){
-            e.printStackTrace();
-        }
+            logger.error(e);        }
     }
     public void MakeAllErrorJsonFile(){
         Gson ALLFile_Gson= new GsonBuilder().setPrettyPrinting().create();
@@ -89,8 +91,7 @@ public class JsonErrorFileMaker {
             }
             fileWriter.write("]");
         }catch (Exception e){
-            e.printStackTrace();
-        }
+            logger.error(e);        }
 
     }
 

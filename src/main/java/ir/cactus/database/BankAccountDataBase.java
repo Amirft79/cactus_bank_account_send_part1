@@ -2,6 +2,7 @@ package ir.cactus.database;
 
 import ir.cactus.model.Account;
 import ir.cactus.model.Customer;
+import org.apache.log4j.Logger;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -16,6 +17,8 @@ public class BankAccountDataBase {
     private Connection connection=null;
     private PreparedStatement mainStatement=null;
     private ResultSet mainSet=null;
+
+    private Logger logger=Logger.getLogger(BankAccountDataBase.class);
 
 
 
@@ -35,7 +38,7 @@ public class BankAccountDataBase {
             mainStatement=connection.prepareStatement("DELETE FROM bank_account");
             mainStatement.executeUpdate();
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e);
         }
     }
 
@@ -55,7 +58,7 @@ public class BankAccountDataBase {
                 mainStatement.executeUpdate();
             }
         }catch (Exception e){
-            e.printStackTrace();
+            logger.error(e);
         }
 
 
@@ -83,12 +86,12 @@ public class BankAccountDataBase {
 
 
         }catch (Exception e){
-            e.printStackTrace();
+            logger.error(e);
         }finally {
             try{
                 mainStatement.close();
             }catch (Exception e){
-                e.printStackTrace();
+                logger.error(e);
             }
         }
     }
