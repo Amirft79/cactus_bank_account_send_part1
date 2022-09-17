@@ -8,8 +8,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.function.Predicate;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class BankDataValidator {
@@ -58,23 +59,13 @@ public class BankDataValidator {
         Customer_Birth_isCheck();
         //check account number add digit numbers
         for (Account account:this.accounts){
-            if (account.getAccount_Number().length()==16){
-                this.Clone_accounts.add(account);
-            }
-            else {
-                this.Error_accounts.add(account);
-            }
+                CheckedAccountNumberPattern(account);
         }
         this.accounts=this.Clone_accounts;
         this.Clone_ERROR_accounts=this.Clone_accounts;
         //check customer national id
         for (Customer customer:this.customers) {
-            if (customer.getCustomer_National_ID().length() != 10) {
-                this.Error_customers.add(customer);
-            }
-            else{
-                this.Clone_customers.add(customer);
-            }
+            CheckedAccountNumberPattern(customer);
         }
         this.customers=Clone_customers;
         this.Clone_ERROR_customers=Clone_customers;
@@ -169,6 +160,32 @@ public class BankDataValidator {
             logger.error(e);
         }
         this.customers=customerList;
+
+    }
+    public void CheckedAccountNumberPattern(Customer customer){
+        String NationalPattern="(\\d{10})";
+        Pattern p=Pattern.compile(NationalPattern);
+        Matcher matcher=p.matcher(customer.getCustomer_National_ID());
+        if (!matcher.matches()) {
+            this.Error_customers.add(customer);
+        }
+        else{
+            this.Clone_customers.add(customer);
+        }
+
+    }
+
+
+    public void CheckedAccountNumberPattern(Account account){
+        String AccountNumberPattern="(\\d{16})";
+        Pattern p=Pattern.compile(AccountNumberPattern);
+        Matcher matcher=p.matcher(account.getAccount_Number());
+        if (matcher.matches()) {
+            this.Clone_accounts.add(account);
+        }
+        else{
+            this.Error_accounts.add(account);
+        }
 
     }
 
