@@ -1,0 +1,145 @@
+[{
+  "Record_Number": 1,
+  "Account_Number": "6221064963631412",
+  "accountType": "Saving",
+  "Account_Customer_id": 1,
+  "Account_Limit": 1000000,
+  "Account_Open_Date": "2003-05-12",
+  "Account_Balance": 1000000
+},{
+  "Record_Number": 2,
+  "Account_Number": "6219861905200982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 1,
+  "Account_Limit": 2450000,
+  "Account_Open_Date": "1998-07-11",
+  "Account_Balance": 145500
+},{
+  "Record_Number": 5,
+  "Account_Number": "6221061056941711",
+  "accountType": "Saving",
+  "Account_Customer_id": 1,
+  "Account_Limit": 1200000,
+  "Account_Open_Date": "2013-07-11",
+  "Account_Balance": 1200000
+},{
+  "Record_Number": 6,
+  "Account_Number": "6104337330589963",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 2,
+  "Account_Limit": 114500,
+  "Account_Open_Date": "2014-07-11",
+  "Account_Balance": 100400
+},{
+  "Record_Number": 9,
+  "Account_Number": "5022291097814718",
+  "accountType": "RecurringDeposit",
+  "Account_Customer_id": 4,
+  "Account_Limit": 10001000,
+  "Account_Open_Date": "2017-07-11",
+  "Account_Balance": 10001000
+},{
+  "Record_Number": 10,
+  "Account_Number": "6221064063451412",
+  "accountType": "Saving",
+  "Account_Customer_id": 4,
+  "Account_Limit": 10010100,
+  "Account_Open_Date": "2018-07-11",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 11,
+  "Account_Number": "6219861907790982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 4,
+  "Account_Limit": 56000000,
+  "Account_Open_Date": "2019-07-11",
+  "Account_Balance": 56000000
+},{
+  "Record_Number": 19,
+  "Account_Number": "6221064063631419",
+  "accountType": "Saving",
+  "Account_Customer_id": 10,
+  "Account_Limit": 650001000,
+  "Account_Open_Date": "2001-05-13",
+  "Account_Balance": 650001000
+},{
+  "Record_Number": 21,
+  "Account_Number": "6219861909600982",
+  "accountType": "Saving",
+  "Account_Customer_id": 11,
+  "Account_Limit": 75001000,
+  "Account_Open_Date": "2011-01-15",
+  "Account_Balance": 75001000
+},{
+  "Record_Number": 22,
+  "Account_Number": "6221064012131412",
+  "accountType": "Saving",
+  "Account_Customer_id": 11,
+  "Account_Limit": 78001000,
+  "Account_Open_Date": "2012-01-16",
+  "Account_Balance": 15252000
+},{
+  "Record_Number": 41,
+  "Account_Number": "5859834759405619",
+  "accountType": "Saving",
+  "Account_Customer_id": 27,
+  "Account_Limit": 1786000,
+  "Account_Open_Date": "1998-08-02",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 42,
+  "Account_Number": "5859831159605611",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 28,
+  "Account_Limit": 1478000,
+  "Account_Open_Date": "1945-08-03",
+  "Account_Balance": 144000
+},{
+  "Record_Number": 43,
+  "Account_Number": "6221064069531412",
+  "accountType": "Saving",
+  "Account_Customer_id": 28,
+  "Account_Limit": 158000,
+  "Account_Open_Date": "1965-07-04",
+  "Account_Balance": 144000
+},{
+  "Record_Number": 44,
+  "Account_Number": "6219861905756982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 29,
+  "Account_Limit": 1012400,
+  "Account_Open_Date": "1945-06-05",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 45,
+  "Account_Number": "6221063461531412",
+  "accountType": "Saving",
+  "Account_Customer_id": 30,
+  "Account_Limit": 15252000,
+  "Account_Open_Date": "1936-05-06",
+  "Account_Balance": 250000
+},{
+  "Record_Number": 46,
+  "Account_Number": "5859831156305611",
+  "accountType": "Saving",
+  "Account_Customer_id": 30,
+  "Account_Limit": 1785000,
+  "Account_Open_Date": "1986-04-06",
+  "Account_Balance": 144000
+},{
+  "Record_Number": 50,
+  "Account_Number": "6219861908900982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 33,
+  "Account_Limit": 1427000,
+  "Account_Open_Date": "1948-01-10",
+  "Account_Balance": 144000
+},{
+  "Record_Number": 51,
+  "Account_Number": "6219861598310982",
+  "accountType": "FixedDepositAccount",
+  "Account_Customer_id": 51,
+  "Account_Limit": 1527000,
+  "Account_Open_Date": "1948-01-10",
+  "Account_Balance": 154000
+}]

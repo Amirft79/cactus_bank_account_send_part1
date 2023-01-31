@@ -1,0 +1,100 @@
+[{
+  "Record_Number": 1,
+  "Customer_Id": 1,
+  "Customer_Name": "amirhossein",
+  "Customer_Surname": "fardi",
+  "Customer_Address": "tehran",
+  "Customer_Zip_Code": 1495686595,
+  "Customer_National_ID": "0235343680",
+  "Customer_Birth_Date": "1998-07-12"
+},{
+  "Record_Number": 2,
+  "Customer_Id": 2,
+  "Customer_Name": "amir",
+  "Customer_Surname": "fardi",
+  "Customer_Address": "tehran-torabi",
+  "Customer_Zip_Code": 1495586595,
+  "Customer_National_ID": "0235663680",
+  "Customer_Birth_Date": "1999-07-14"
+},{
+  "Record_Number": 4,
+  "Customer_Id": 4,
+  "Customer_Name": "amirreza",
+  "Customer_Surname": "akbari",
+  "Customer_Address": "tehran-navobat",
+  "Customer_Zip_Code": 1495686595,
+  "Customer_National_ID": "0235334480",
+  "Customer_Birth_Date": "1996-09-12"
+},{
+  "Record_Number": 10,
+  "Customer_Id": 10,
+  "Customer_Name": "yashar",
+  "Customer_Surname": "fardi",
+  "Customer_Address": "tabriz",
+  "Customer_Zip_Code": 1495646595,
+  "Customer_National_ID": "0233443680",
+  "Customer_Birth_Date": "2001-12-12"
+},{
+  "Record_Number": 11,
+  "Customer_Id": 11,
+  "Customer_Name": "iman",
+  "Customer_Surname": "hojabri",
+  "Customer_Address": "mashhad",
+  "Customer_Zip_Code": 1499696595,
+  "Customer_National_ID": "2340235680",
+  "Customer_Birth_Date": "2002-12-13"
+},{
+  "Record_Number": 27,
+  "Customer_Id": 27,
+  "Customer_Name": "amirreza",
+  "Customer_Surname": "rahmti",
+  "Customer_Address": "tehran-valiasr",
+  "Customer_Zip_Code": 1495466595,
+  "Customer_National_ID": "2305343666",
+  "Customer_Birth_Date": "2015-09-14"
+},{
+  "Record_Number": 28,
+  "Customer_Id": 28,
+  "Customer_Name": "amirhossein",
+  "Customer_Surname": "akbari",
+  "Customer_Address": "tehran-kargar",
+  "Customer_Zip_Code": 1495626595,
+  "Customer_National_ID": "2506343680",
+  "Customer_Birth_Date": "2012-08-16"
+},{
+  "Record_Number": 29,
+  "Customer_Id": 29,
+  "Customer_Name": "akbar",
+  "Customer_Surname": "hojabri",
+  "Customer_Address": "tehran-jomhorie",
+  "Customer_Zip_Code": 1494666595,
+  "Customer_National_ID": "7753430680",
+  "Customer_Birth_Date": "2013-07-17"
+},{
+  "Record_Number": 30,
+  "Customer_Id": 30,
+  "Customer_Name": "amirhossein",
+  "Customer_Surname": "fardi",
+  "Customer_Address": "tehran-koynasr",
+  "Customer_Zip_Code": 1495266595,
+  "Customer_National_ID": "0885343640",
+  "Customer_Birth_Date": "2009-07-18"
+},{
+  "Record_Number": 33,
+  "Customer_Id": 33,
+  "Customer_Name": "farank",
+  "Customer_Surname": "akbari",
+  "Customer_Address": "tehran-esteglal",
+  "Customer_Zip_Code": 1495686595,
+  "Customer_National_ID": "2305347680",
+  "Customer_Birth_Date": "2007-07-21"
+},{
+  "Record_Number": 51,
+  "Customer_Id": 51,
+  "Customer_Name": "nima",
+  "Customer_Surname": "shahrokhi",
+  "Customer_Address": "tehran-marzdaran",
+  "Customer_Zip_Code": 1195678595,
+  "Customer_National_ID": "1153043680",
+  "Customer_Birth_Date": "1999-07-09"
+}]
