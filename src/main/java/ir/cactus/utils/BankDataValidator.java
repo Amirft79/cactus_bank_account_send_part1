@@ -65,7 +65,7 @@ public class BankDataValidator {
         this.Clone_ERROR_accounts=this.Clone_accounts;
         //check customer national id
         for (Customer customer:this.customers) {
-            CheckedAccountNumberPattern(customer);
+            CheckedNationalIdPattern(customer);
         }
         this.customers=Clone_customers;
         this.Clone_ERROR_customers=Clone_customers;
@@ -162,7 +162,7 @@ public class BankDataValidator {
         this.customers=customerList;
 
     }
-    public void CheckedAccountNumberPattern(Customer customer){
+    public void CheckedNationalIdPattern(Customer customer){
         String NationalPattern="(\\d{10})";
         Pattern p=Pattern.compile(NationalPattern);
         Matcher matcher=p.matcher(customer.getCustomer_National_ID());

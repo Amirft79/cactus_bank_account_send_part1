@@ -5,6 +5,7 @@ import ir.cactus.model.Account;
 import ir.cactus.model.Customer;
 import ir.cactus.utils.BankAccountFileReader;
 import ir.cactus.utils.BankDataValidator;
+import ir.cactus.utils.JsonCorrectFileMaker;
 import ir.cactus.utils.JsonErrorFileMaker;
 import org.apache.log4j.Logger;
 
@@ -58,6 +59,9 @@ public class BankAccountDataServerInput {
         else if (input=='3'){
             BankDataValidator validator=new BankDataValidator(accounts,customers);
             validator.isDataValidate();
+            JsonCorrectFileMaker jsonCorrectFileMaker=new JsonCorrectFileMaker(validator.getCustomers(),validator.getAccounts());
+            jsonCorrectFileMaker.MakeCustomerCorrectJsonFile();
+            jsonCorrectFileMaker.Make_Correct_Account_Json_File();
             JsonErrorFileMaker jsonErrorFileMaker=new JsonErrorFileMaker(validator.getError_accounts(),validator.getError_customers());
             System.out.println("make customer error file");
             jsonErrorFileMaker.MakeJsonFileOfCustomer();

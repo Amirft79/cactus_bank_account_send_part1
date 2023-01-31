@@ -91,7 +91,8 @@ public class JsonErrorFileMaker {
             }
             fileWriter.write("]");
         }catch (Exception e){
-            logger.error(e);        }
+            logger.error(e);
+        }
 
     }
 

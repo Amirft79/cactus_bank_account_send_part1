@@ -27,7 +27,7 @@ public class BankAccountDataBase {
 
 
     private static final String INSERT_CUSTOMER="INSERT INTO customers(customer_id,customer_name,customer_surname," +
-            "customer_address,customer_zip_code,customer_national_id,customer_birth_date) values (?,?,?,?,?,?,?)";
+            "customer_address,customer_zip_code,customer_national_id,customer_brith_date) values (?,?,?,?,?,?,?)";
 
     public BankAccountDataBase(ArrayList<Account>accounts,ArrayList<Customer>customers) {
         this.accounts=accounts;
